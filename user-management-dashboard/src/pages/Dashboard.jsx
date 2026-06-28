@@ -10,7 +10,7 @@ import Loader from "../components/Loader";
 import ErrorMessage from "../components/ErrorMessage";
 
 import { filterUsers } from "../utils/filterUsers";
-import { paginate } from "../utils/pagination";
+import { paginate } from "../utils/Pagination";
 
 function Dashboard() {
   const [users, setUsers] = useState([]);
